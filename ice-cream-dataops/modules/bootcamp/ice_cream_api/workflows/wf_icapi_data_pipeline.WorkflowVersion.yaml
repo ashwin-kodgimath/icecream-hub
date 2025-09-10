@@ -35,7 +35,7 @@ workflowDefinition:
           externalId: oee_timeseries
       name: 'Task 3'
       description:  Task 3 - Oee Timeseries
-      etries: 3
+      retries: 3
       timeout: 3600
       onFailure: abortWorkflow
       dependsOn:
